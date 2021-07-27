@@ -4,9 +4,7 @@ import { getAllFilesFrontMatter } from "@/lib/mdx";
 import formatDate from "@/lib/utils/formatDate";
 import Link from "next/dist/client/link";
 import Tag from "@/components/Tag";
-
-const title = "Hi, I'm Rofi 👋";
-const subtitle = "I'm a Student and Indie Wannabe 🌇";
+import config from "@/data/config";
 
 const MAX_DISPLAY = 5;
 
@@ -18,8 +16,8 @@ export async function getStaticProps() {
 
 export default function index({ posts }) {
   return (
-    <Layout title="Home - @mrofisr" description={`${title} - ${subtitle}`}>
-      <Title title={title} subtitle={subtitle} />
+    <Layout title={config.page.index.header} description={`${config.page.index.title} - ${config.page.index.subtitle}`}>
+      <Title title={config.page.index.title} subtitle={config.page.index.subtitle} />
       <ul className="divide-y divide-gray-400 md:divide-y-1 dark:divide-gray-700">
         {!posts.length && "No posts found."}
         {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {

@@ -1,16 +1,10 @@
 import Layout from "@/components/Layout";
 import Title from "@/components/Title";
-
-const title = "Projects 📚";
-const subtitle =
-  "A selection of projects I've worked on";
+import config from "@/data/config";
 export default function projects() {
   return (
-    <Layout
-      title="Project - @mrofisr"
-      description={`${title} - ${subtitle}`}
-    >
-      <Title title={title} subtitle={subtitle} />
+    <Layout title={config.page.project.header} description={`${config.page.project.title} - ${config.page.project.subtitle}`}>
+      <Title title={config.page.project.title} subtitle={config.page.project.subtitle} />
     </Layout>
   );
 }

@@ -2,11 +2,7 @@ import Layout from "@/components/Layout";
 import Title from "@/components/Title";
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import ListLayout from "@/components/ListLayout";
-
-const title = "Blog ✍️";
-const subtitle =
-  "I share anything that may help others, technologies I'm using and cool things I've made.";
-
+import config from "@/data/config";
 export const POSTS_PER_PAGE = 5;
 
 export async function getStaticProps() {
@@ -22,8 +18,8 @@ export async function getStaticProps() {
 
 export default function blog({ posts, initialDisplayPosts, pagination }) {
   return (
-    <Layout title="Blog - @mrofisr" description={`${title} - ${subtitle}`}>
-      <Title title={title} subtitle={subtitle} />
+    <Layout title={config.page.blog.header} description={`${config.page.blog.title} - ${config.page.blog.subtitle}`}>
+      <Title title={config.page.blog.title} subtitle={config.page.blog.subtitle} />
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}

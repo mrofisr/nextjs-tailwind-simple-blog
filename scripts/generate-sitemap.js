@@ -1,7 +1,7 @@
 const fs = require('fs')
 const globby = require('globby')
 const prettier = require('prettier')
-const siteMetadata = "https://mrofisr.dev"
+const config = require('../data/config')
 
 ;(async () => {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
@@ -32,7 +32,7 @@ const siteMetadata = "https://mrofisr.dev"
                 }
                 return `
                         <url>
-                            <loc>${siteMetadata}${route}</loc>
+                            <loc>${config.siteUrl}${route}</loc>
                             <lastmod>${new Date().toISOString()}</lastmod>
                             <changefreq>monthly</changefreq>
                             <priority>1.0</priority>
