@@ -4,7 +4,7 @@ const config = {
   headerTitle: "My Personal Blog",
   description: "A simple personal blog made with NextJS and Tailwind CSS",
   language: "id-ID",
-  siteUrl: "https://mrofisr.dev",
+  siteUrl: "https://nextjs-tailwind-simple-blog.vercel.app",
   favIcon: "/static/images/favicon.png",
   page: {
     index: {
