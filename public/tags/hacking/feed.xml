@@ -1,0 +1,23 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Next.js Starter Blog</title>
+      <link>https://mrofisr.vercel.app/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>id-ID</language>
+      <managingEditor>(Abdur Rofi - @mrofisr)</managingEditor>
+      <webMaster>(Abdur Rofi - @mrofisr)</webMaster>
+      <lastBuildDate>Sun, 21 Jun 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://mrofisr.vercel.app/tags/hacking/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://mrofisr.vercel.app/blog/hunting-crypto-mining</guid>
+    <title>Hunting Crypto Mining</title>
+    <link>https://mrofisr.vercel.app/blog/hunting-crypto-mining</link>
+    <description>I want to share my experience when I try to hunt crypto mining on some server</description>
+    <pubDate>Sun, 21 Jun 2020 00:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+    </channel>
+  </rss>

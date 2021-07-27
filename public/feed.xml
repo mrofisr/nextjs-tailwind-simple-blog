@@ -1,0 +1,32 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Next.js Starter Blog</title>
+      <link>https://mrofisr.vercel.app/blog</link>
+      <description>A blog created with Next.js and Tailwind.css</description>
+      <language>id-ID</language>
+      <managingEditor>(Abdur Rofi - @mrofisr)</managingEditor>
+      <webMaster>(Abdur Rofi - @mrofisr)</webMaster>
+      <lastBuildDate>Mon, 26 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://mrofisr.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://mrofisr.vercel.app/blog/phising-analysis-2</guid>
+    <title>BTLO - Phising Analysis 2</title>
+    <link>https://mrofisr.vercel.app/blog/phising-analysis-2</link>
+    <description>WriteUp Challanges Blue Team Labs Online - Phising Analysis 2</description>
+    <pubDate>Mon, 26 Jul 2021 00:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.vercel.app/blog/hunting-crypto-mining</guid>
+    <title>Hunting Crypto Mining</title>
+    <link>https://mrofisr.vercel.app/blog/hunting-crypto-mining</link>
+    <description>I want to share my experience when I try to hunt crypto mining on some server</description>
+    <pubDate>Tue, 21 Jul 2020 00:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+    </channel>
+  </rss>
